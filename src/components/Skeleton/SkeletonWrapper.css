@@ -1,0 +1,6 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+    gap: 30px;
+}

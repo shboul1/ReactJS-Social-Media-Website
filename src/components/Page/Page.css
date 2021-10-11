@@ -1,0 +1,10 @@
+#override-bootstrap .page {
+    min-height: 100vh;
+    background-color: #eee;
+}
+#override-bootstrap .sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}

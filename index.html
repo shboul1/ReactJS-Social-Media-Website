@@ -1,0 +1,19 @@
+<div className="posts">
+    {docs.map(doc => (
+      <div className="post">
+        <div className="post-header">
+          <img src={doc.photoUrl} alt={doc.username} />
+          <h3 className='username'>{doc.username}</h3>
+          <button className='delete-post'>Delete</button>
+        </div>
+        <div className="post-image">
+          <img src={doc.photoURL} alt={doc.username} />
+        </div>
+        <div className="post-caption">
+          <span>{doc.username}</span>
+          <p>{doc.post}</p>
+        </div>
+        <div className="post-comments"></div>
+      </div>
+    ))}
+  </div>

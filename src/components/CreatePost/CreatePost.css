@@ -1,0 +1,59 @@
+ .create-post {
+    width: 65%;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-bottom: 1px solid #dde0e1;
+    margin-bottom: 30px;
+}
+ .create-post p {
+    text-align: start;
+    padding: 15px;
+}
+ .create-post textarea {
+    border: none;
+    outline: none;
+    height: 80px;
+    padding: 10px;
+    resize: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+.create-post .actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+ .create-post .actions button {
+    border: none;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+ .create-post .actions button:hover,
+ .create-post .actions label:hover
+{
+    transform:scale(0.95);
+    -webkit-transform: scale(0.95);
+}
+ .create-post .actions label {
+    font-size: 20px;
+    transition: 0.2s;
+}
+#Image-Preview {
+    display: none;
+}
+.create-post-user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+@media(max-width:765px){
+    . .create-post{
+        width: 90%;
+    }
+}
