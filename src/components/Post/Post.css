@@ -43,6 +43,7 @@
 .post-caption {
     text-align: start;
     padding-left: 5px;
+    padding-bottom: 20px;
 }
 .post-caption span {
     font-weight: 700;
@@ -52,6 +53,7 @@
     font-weight: 200;
     padding-left: 7px;
     display: inline;
+    
 }
 .post-comments {
     text-align: start;
@@ -97,5 +99,14 @@
 @media(max-width:765px){
     .posts{
         width: 90%;
+
     }
+    .post {
+        padding: 10px;
+    }
+    .post-caption {
+       font-size: 15px;
+       padding-bottom: 20px;
+    }
+
 }

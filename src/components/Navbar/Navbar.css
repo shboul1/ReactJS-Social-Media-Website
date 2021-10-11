@@ -72,3 +72,8 @@ nav h3 {
     cursor: pointer;
 }
 
+@media (max-width:765px) {
+    #navbar h3 {
+        padding:  0 20px;
+    }
+}

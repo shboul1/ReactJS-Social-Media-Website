@@ -53,7 +53,7 @@
     border-radius: 50%;
 }
 @media(max-width:765px){
-    . .create-post{
+    .create-post{
         width: 90%;
     }
 }

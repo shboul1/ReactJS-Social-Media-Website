@@ -13,9 +13,9 @@ const Page = () => {
     <>
     <div id='override-bootstrap' className="page" style={{ textAlign: "center", paddingTop: "20px" }}>
       {user ? ( <CreatePost /> ) : (
-        <div className="sign-in">
+        <div className="sign-in" style={{width: '90%', margin: '0 auto'}}>
           <Signinbtn />
-          <p style={{ marginLeft: "10px" }}>To Post & Comment</p>
+          <p style={{ marginLeft: "5px" }}>To Post & Comment</p>
         </div>
       )}
       <AllPosts />
